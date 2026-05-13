@@ -3,7 +3,7 @@
 	<teiHeader>
     <fileDesc>
         <titleStmt>
-            <title type="main">Leopold I. an Sternberg, Adolf Wratislaw, 28. Jänner 1668</title>
+            <title type="main">Leopold I. an Sternberg, Adolf Wratislaw, 9. April 1677</title>
             <title type="sub">Korrespondenz von Kaiser Leopold I</title>
             <author key="#lp-lb-person-1">Leopold I.</author>
             <editor key="https://d-nb.info/gnd/132150654">
@@ -29,7 +29,7 @@
                         </msIdentifier>
                         <history>   
                             <origin>
-                                <origDate when-iso="1668-01-28"/>
+                                <origDate when-iso="1677-04-09"/>
                             </origin>
                         </history>
                     </msDesc>
@@ -44,7 +44,7 @@
         <correspDesc>
             <correspAction type="sent">
                 <persName ref="#lp-lb-person-1">Leopold I.</persName>
-                <date notBefore-iso="1668-01-28" notAfter-iso="1668-01-28">28. Jänner 1668</date>
+                <date notBefore-iso="1677-04-09" notAfter-iso="1677-04-09">9. April 1677</date>
             </correspAction>
             <correspAction type="received">
                 <persName ref="#lp-lb-person-38">Sternberg, Adolf Wratislaw</persName>
@@ -57,13 +57,13 @@
     </revisionDesc>
 </teiHeader>
 <facsimile xml:id="facs_1">
-		<surface ulx="0" uly="0" lrx="2640" lry="4159">
-			<graphic url="16091035_0001_119400643.jpg" width="2640px" height="4159px"/>
+		<surface ulx="0" uly="0" lrx="2669" lry="4181">
+			<graphic url="16091275_0001_119401686.jpg" width="2669px" height="4181px"/>
 		</surface>
 	</facsimile>
 	<facsimile xml:id="facs_2">
-		<surface ulx="0" uly="0" lrx="2675" lry="4188">
-			<graphic url="16091035_0002_119400835.jpg" width="2675px" height="4188px"/>
+		<surface ulx="0" uly="0" lrx="2669" lry="4177">
+			<graphic url="16091275_0002_119401687.jpg" width="2669px" height="4177px"/>
 		</surface>
 	</facsimile>
 	<text>

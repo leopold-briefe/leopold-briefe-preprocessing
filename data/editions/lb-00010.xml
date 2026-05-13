@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+	<teiHeader>
     <fileDesc>
         <titleStmt>
-            <title type="main">Leopold I. an Sternberg, Adolf Wratislaw, 28. Jänner 1668</title>
+            <title type="main">Leopold I. an Sternberg, Adolf Wratislaw, 14. August 1678</title>
             <title type="sub">Korrespondenz von Kaiser Leopold I</title>
             <author key="#lp-lb-person-1">Leopold I.</author>
             <editor key="https://d-nb.info/gnd/132150654">
@@ -29,7 +29,7 @@
                         </msIdentifier>
                         <history>   
                             <origin>
-                                <origDate when-iso="1668-01-28"/>
+                                <origDate when-iso="1678-08-14"/>
                             </origin>
                         </history>
                     </msDesc>
@@ -44,7 +44,7 @@
         <correspDesc>
             <correspAction type="sent">
                 <persName ref="#lp-lb-person-1">Leopold I.</persName>
-                <date notBefore-iso="1668-01-28" notAfter-iso="1668-01-28">28. Jänner 1668</date>
+                <date notBefore-iso="1678-08-14" notAfter-iso="1678-08-14">14. August 1678</date>
             </correspAction>
             <correspAction type="received">
                 <persName ref="#lp-lb-person-38">Sternberg, Adolf Wratislaw</persName>
@@ -56,9 +56,22 @@
         <change xml:id="transkription-status">nicht vorhanden</change>
     </revisionDesc>
 </teiHeader>
-<text>
-      <body>
-         <p>Noch keine Transkription erstellt.</p>
-      </body>
-  </text>
+<facsimile xml:id="facs_1">
+		<surface ulx="0" uly="0" lrx="2493" lry="3504">
+			<graphic url="16091355_0001_119402441.jpg" width="2493px" height="3504px"/>
+		</surface>
+	</facsimile>
+	<facsimile xml:id="facs_2">
+		<surface ulx="0" uly="0" lrx="2494" lry="3511">
+			<graphic url="16091355_0002_119402385.jpg" width="2494px" height="3511px"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div>
+				<div type="page"><pb facs="#facs_1" n="1"/>
+				</div><div type="page"><pb facs="#facs_2" n="2"/>
+			</div></div>
+		</body>
+	</text>
 </TEI>

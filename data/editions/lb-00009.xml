@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+    <fileDesc>
+        <titleStmt>
+            <title type="main">Leopold I. an Sternberg, Adolf Wratislaw, 14. August 1678</title>
+            <title type="sub">Korrespondenz von Kaiser Leopold I</title>
+            <author key="#lp-lb-person-1">Leopold I.</author>
+            <editor key="https://d-nb.info/gnd/132150654">
+                <forename>Petr</forename>
+                <surname>Maťa</surname>
+            </editor>
+        </titleStmt>
+        <publicationStmt>
+            <publisher key="https://d-nb.info/gnd/1001454-8">Österreichische Akademie der Wissenschaften</publisher>
+            <date when="2028"/>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+        </publicationStmt>
+        <sourceDesc>
+            <listWit>
+                <witness>
+                    <msDesc>
+                        <msIdentifier>
+                            <repository>ANM</repository>
+                            <collection>Šternberk-Manderscheid</collection>
+                            <idno>K. 197</idno>
+                        </msIdentifier>
+                        <history>   
+                            <origin>
+                                <origDate when-iso="1678-08-14"/>
+                            </origin>
+                        </history>
+                    </msDesc>
+                </witness>
+            </listWit>
+        </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+        <langUsage>
+            <language ident="deu"/>
+        </langUsage>
+        <correspDesc>
+            <correspAction type="sent">
+                <persName ref="#lp-lb-person-1">Leopold I.</persName>
+                <date notBefore-iso="1678-08-14" notAfter-iso="1678-08-14">14. August 1678</date>
+            </correspAction>
+            <correspAction type="received">
+                <persName ref="#lp-lb-person-38">Sternberg, Adolf Wratislaw</persName>
+            </correspAction>
+        </correspDesc>
+    </profileDesc>
+    <revisionDesc>
+        <change xml:id="metadaten-status">angelegt</change>
+        <change xml:id="transkription-status">finalisiert</change>
+    </revisionDesc>
+</teiHeader>
+<facsimile xml:id="facs_1">
+		<surface ulx="0" uly="0" lrx="2402" lry="3646">
+			<graphic url="16091315_0001_119401944.jpg" width="2402px" height="3646px"/>
+			<zone points="131,60 137,1866 2368,1857 2364,60" rendition="TextRegion" xml:id="facs_1_tr_1">
+				<zone points="166,420 573,421 839,378 1159,429 1290,381 1346,416 1799,373 1850,413 2012,384 2252,424 2297,416 2331,343 2220,293 2012,325 1719,256 1420,301 1261,259 1127,317 1042,269 943,322 823,253 685,293 584,240 512,280 376,229 171,290" rendition="Line" xml:id="facs_1_tr_1_tl_3"/>
+				<zone points="189,541 309,578 659,551 752,562 983,514 1066,560 1255,512 1386,546 1524,506 1655,544 1903,506 2175,533 2219,419 2140,402 1821,436 1500,421 959,450 871,389 608,430 289,403 189,429" rendition="Line" xml:id="facs_1_tr_1_tl_4"/>
+				<zone points="211,696 394,645 919,685 1175,632 1786,693 1993,650 2287,738 2352,728 2349,645 2177,560 1953,600 1423,533 1170,592 999,522 796,552 208,578" rendition="Line" xml:id="facs_1_tr_1_tl_5"/>
+				<zone points="221,845 395,825 522,794 730,818 973,799 1133,823 1380,781 1591,833 2189,849 2255,839 2252,736 2100,712 1642,721 1503,682 1394,744 1247,669 1170,725 1047,656 712,733 642,688 435,673 221,693" rendition="Line" xml:id="facs_1_tr_1_tl_6"/>
+				<zone points="256,946 421,934 1149,920 1351,957 2260,965 2260,847 2193,885 2148,847 1839,826 1186,842 1066,802 965,874 861,826 794,855 597,815 370,805 256,874" rendition="Line" xml:id="facs_1_tr_1_tl_7"/>
+				<zone points="230,1060 434,1023 640,1079 722,1034 805,1077 847,1037 983,1082 1079,1045 1335,1074 1810,1058 2287,1082 2339,978 2060,962 1893,977 1652,951 1511,977 1338,983 1285,930 1186,983 1109,941 720,983 589,943 493,978 397,938 248,954" rendition="Line" xml:id="facs_1_tr_1_tl_8"/>
+				<zone points="208,1189 288,1221 637,1189 877,1174 1168,1175 1190,1209 1242,1209 1257,1183 1479,1159 1659,1189 1992,1185 2354,1248 2358,1210 2348,1152 2162,1101 2092,1121 1943,1083 1791,1101 1469,1090 1151,1063 957,1103 800,1079 728,1125 573,1079 517,1111 208,1077" rendition="Line" xml:id="facs_1_tr_1_tl_9"/>
+				<zone points="229,1303 320,1346 534,1332 1063,1322 1133,1282 1458,1335 1628,1295 1748,1330 1810,1290 2327,1322 2341,1255 2044,1232 1948,1215 1556,1205 1428,1207 1101,1237 957,1215 664,1215 528,1181 384,1217 229,1221" rendition="Line" xml:id="facs_1_tr_1_tl_10"/>
+				<zone points="208,1450 485,1412 560,1452 861,1436 951,1471 1157,1418 1436,1471 1961,1428 2252,1487 2264,1388 1961,1330 1450,1375 1191,1325 831,1380 282,1319 208,1351" rendition="Line" xml:id="facs_1_tr_1_tl_11"/>
+				<zone points="195,1607 522,1546 685,1607 829,1564 903,1612 999,1567 1186,1596 1258,1559 1345,1578 1356,1615 1468,1620 1543,1572 1770,1573 1793,1607 2015,1615 2127,1575 2191,1620 2297,1602 2329,1582 2271,1508 2076,1530 2009,1482 1921,1514 1778,1468 1615,1516 1394,1442 1269,1500 983,1514 648,1442 578,1492 490,1447 197,1480" rendition="Line" xml:id="facs_1_tr_1_tl_12"/>
+				<zone points="200,1784 357,1746 389,1772 424,1759 445,1770 546,1731 578,1708 640,1711 654,1618 528,1578 496,1554 466,1562 408,1612 330,1634" rendition="Line" xml:id="facs_1_tr_1_tl_14"/>
+				<zone points="1167,1706 1754,1700 1921,1740 2137,1751 2183,1735 2247,1664 2183,1636 1985,1602 1927,1647 1777,1582 1650,1615 1532,1580 1468,1623 1366,1610 1349,1577 1289,1559 1165,1594" rendition="Line" xml:id="facs_1_tr_1_tl_13"/>
+			</zone>
+		</surface>
+	</facsimile>
+	<facsimile xml:id="facs_2">
+		<surface ulx="0" uly="0" lrx="2406" lry="3651">
+			<graphic url="16091315_0002_119401945.jpg" width="2406px" height="3651px"/>
+		</surface>
+	</facsimile>
+	<facsimile xml:id="facs_3">
+		<surface ulx="0" uly="0" lrx="2381" lry="3649">
+			<graphic url="16091315_0003_119401946.jpg" width="2381px" height="3649px"/>
+		</surface>
+	</facsimile>
+	<facsimile xml:id="facs_4">
+		<surface ulx="0" uly="0" lrx="2401" lry="3628">
+			<graphic url="16091315_0004_119402042.jpg" width="2401px" height="3628px"/>
+			<zone points="193,1821 185,2304 1205,2304 1201,1809" rendition="TextRegion" xml:id="facs_4_tr_1">
+				<zone points="221,2052 329,2053 398,2043 466,2088 715,2039 799,2061 958,2036 1135,2043 1138,1976 1049,1936 911,1939 852,1981 760,1943 709,1959 507,1928 447,1973 320,1982 225,1981" rendition="Line" xml:id="facs_4_tr_1_tl_1"/>
+				<zone points="228,2156 382,2130 490,2157 534,2132 609,2153 741,2116 776,2141 882,2113 999,2121 1007,2150 1040,2168 1102,2177 1090,2060 978,2046 854,2043 799,2068 740,2037 460,2087 420,2049 394,2036 368,2058 330,2042 230,2108" rendition="Line" xml:id="facs_4_tr_1_tl_2"/>
+				<zone points="232,2250 500,2244 667,2229 1100,2290 1133,2170 1077,2170 1029,2164 1046,2137 1038,2114 991,2151 939,2110 881,2104 775,2140 736,2113 607,2174 544,2113 482,2159 436,2133 233,2157" rendition="Line" xml:id="facs_4_tr_1_tl_3"/>
+			</zone>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div>
+				<div type="page"><pb facs="#facs_1" n="1"/>
+				<p facs="#facs_1_tr_1">
+					<lb facs="#facs_1_tr_1_tl_3" n="N001"/>Lieber grav Vratl. Aus euer schreiben von 29. passato habe
+					<lb facs="#facs_1_tr_1_tl_4" n="N002"/>ich gesehen die freyde, so ihr hatt vber den mir von Gott
+					<lb facs="#facs_1_tr_1_tl_5" n="N003"/>den almochtigen verlihnen sohn. Vnd habe zue bezaigung meiner vergnugung,
+					<lb facs="#facs_1_tr_1_tl_6" n="N004"/>die ich ob eur glukhwundtschung trage, dise genedigste dankhsagung
+					<lb facs="#facs_1_tr_1_tl_7" n="N005"/>himitt verichten wollen. Vnd wollet gesicherdt sein, daß ich alzeitt
+					<lb facs="#facs_1_tr_1_tl_8" n="N006"/>in der alten gewogenhaitt zue euer person verharen werde. Vbrigens
+					<lb facs="#facs_1_tr_1_tl_9" n="N007"/>sehe ich, daß die <unclear>vnvernemben</unclear> zwischen den 2 capi <unclear>deß tatu</unclear> <unclear><choice><expan>ecclesiastico</expan><abbr><corrected>ecc</corrected>liastico</abbr></choice></unclear>
+					<lb facs="#facs_1_tr_1_tl_10" n="N008"/>et prophani nitt abnemben, sonder vermehrdt werden, so mir wol laid
+					<lb facs="#facs_1_tr_1_tl_11" n="N009"/>ist. Vnd werde wol muessen ein mittel suchen, dises zue remediren.
+					<lb facs="#facs_1_tr_1_tl_12" n="N010"/>Ich verbleibe euch vbrigens mitt <choice><expan>kayserlichen</expan><abbr>kay.</abbr></choice> hulden vnd genaden gewogen
+					<lb facs="#facs_1_tr_1_tl_14" n="N011"/>Leopoldt
+					<lb facs="#facs_1_tr_1_tl_13" n="N012"/>Wienn, den 14. Augusti 1678
+				</p>
+				</div><div type="page"><pb facs="#facs_2" n="2"/>
+				</div><div type="page"><pb facs="#facs_3" n="3"/>
+				</div><div type="page"><pb facs="#facs_4" n="4"/>
+				<p facs="#facs_4_tr_1">
+					<lb facs="#facs_4_tr_1_tl_1" n="N001"/>Meinen gehaimben rath vnd <choice><expan>obrist</expan><abbr>ob.</abbr></choice>
+					<lb facs="#facs_4_tr_1_tl_2" n="N002"/>landrichter ln Böhaimb <choice><expan/><abbr>etc.</abbr></choice>
+					<lb facs="#facs_4_tr_1_tl_3" n="N003"/>Vratel graven von Sternberg
+				</p>
+			</div></div>
+		</body>
+	</text>
+</TEI>

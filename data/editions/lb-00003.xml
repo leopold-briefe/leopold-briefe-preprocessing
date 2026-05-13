@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+	<teiHeader>
     <fileDesc>
         <titleStmt>
-            <title type="main">Leopold I. an Kinsky, Franz Ulrich, 1600</title>
+            <title type="main">Leopold I. an Sternberg, Adolf Wratislaw, 28. Jänner 1668</title>
             <title type="sub">Korrespondenz von Kaiser Leopold I</title>
             <author key="#lp-lb-person-1">Leopold I.</author>
             <editor key="https://d-nb.info/gnd/132150654">
@@ -23,13 +23,13 @@
                 <witness>
                     <msDesc>
                         <msIdentifier>
-                            <repository>HHStA</repository>
-                            <collection>Große Korrespondenz</collection>
-                            <idno>K. 63.2, M. '1683-1691', fol. 205r.</idno>
+                            <repository>ANM</repository>
+                            <collection>Šternberk-Manderscheid</collection>
+                            <idno>K. 197</idno>
                         </msIdentifier>
                         <history>   
                             <origin>
-                                <origDate when-iso="1600-01-01"/>
+                                <origDate when-iso="1668-01-28"/>
                             </origin>
                         </history>
                     </msDesc>
@@ -44,21 +44,34 @@
         <correspDesc>
             <correspAction type="sent">
                 <persName ref="#lp-lb-person-1">Leopold I.</persName>
-                <date notBefore-iso="1600-01-01" notAfter-iso="1600-12-31">1600</date>
+                <date notBefore-iso="1668-01-28" notAfter-iso="1668-01-28">28. Jänner 1668</date>
             </correspAction>
             <correspAction type="received">
-                <persName ref="#lp-lb-person-4">Kinsky, Franz Ulrich</persName>
+                <persName ref="#lp-lb-person-38">Sternberg, Adolf Wratislaw</persName>
             </correspAction>
         </correspDesc>
     </profileDesc>
     <revisionDesc>
-        <change xml:id="metadaten-status">überprüft</change>
+        <change xml:id="metadaten-status">angelegt</change>
         <change xml:id="transkription-status">nicht vorhanden</change>
     </revisionDesc>
 </teiHeader>
-<text>
-      <body>
-         <p>Noch keine Transkription erstellt.</p>
-      </body>
-  </text>
+<facsimile xml:id="facs_1">
+		<surface ulx="0" uly="0" lrx="2722" lry="3264">
+			<graphic url="16091215_0001_119401053.jpg" width="2722px" height="3264px"/>
+		</surface>
+	</facsimile>
+	<facsimile xml:id="facs_2">
+		<surface ulx="0" uly="0" lrx="2714" lry="3256">
+			<graphic url="16091215_0002_119400901.jpg" width="2714px" height="3256px"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div>
+				<div type="page"><pb facs="#facs_1" n="1"/>
+				</div><div type="page"><pb facs="#facs_2" n="2"/>
+			</div></div>
+		</body>
+	</text>
 </TEI>

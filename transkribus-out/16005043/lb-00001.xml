@@ -3,7 +3,7 @@
 	<teiHeader>
 		<fileDesc>
 			<titleStmt>
-				<title type='main'>lb-00040</title>
+				<title type='main'>lb-00001</title>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>tranScriptorium</publisher>
@@ -57,9 +57,9 @@
 			<div>
 				<pb facs='#facs_1' n='1'/>
 				<p facs='#facs_1_tr_1'>
-					<lb facs='#facs_1_tr_1_tl_3' n='N001'/>Lieber vratl. aus beylag Ersehet Ihr die vrsachen, Wa
-					<lb facs='#facs_1_tr_1_tl_4' n='N002'/>rumb der <choice><expan>graf</expan><abbr>G.</abbr></choice> Steffan von wurmb Sich von der lantag
-					<lb facs='#facs_1_tr_1_tl_5' n='N003'/>Comission zue Endtschüetten vermaindt. Waillen Ich
+					<lb facs='#facs_1_tr_1_tl_3' n='N001'/>Lieber vratl. aus beylag Ersehet Ihr die vrsachen, <split_word>Wa</split_word>
+					<lb facs='#facs_1_tr_1_tl_4' n='N002'/><split_word>rumb</split_word> der <choice><expan>graf</expan><abbr>G.</abbr></choice> Steffan von wurmb Sich von der <split_word>lantag</split_word>
+					<lb facs='#facs_1_tr_1_tl_5' n='N003'/><split_word>Comission</split_word> <corrected>z</corrected>ue Endtschüetten vermaindt. Waillen Ich
 					<lb facs='#facs_1_tr_1_tl_6' n='N004'/>aber Selbe nitt vor genuegsamb Erhöblich finde,
 					<lb facs='#facs_1_l' n='N005'/>Also wollet Ihr Ihne alßo straxs Mundtlich andeütten,
 					<lb facs='#facs_1_tr_1_tl_9' n='N006'/>das Er Sich alsobaldt Nach brun verfuegen vnd Seiner
