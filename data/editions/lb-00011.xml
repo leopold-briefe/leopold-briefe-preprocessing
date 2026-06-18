@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader>
+	<teiHeader>
     <fileDesc>
         <titleStmt>
             <title type="main">Leopold I. an Sternberg, Adolf Wratislaw, 14. August 1678</title>
@@ -56,9 +56,22 @@
         <change xml:id="transkription-status">nicht vorhanden</change>
     </revisionDesc>
 </teiHeader>
-<text>
-      <body>
-         <p>Noch keine Transkription erstellt.</p>
-      </body>
-  </text>
+<facsimile xml:id="facs_1">
+		<surface ulx="0" uly="0" lrx="2687" lry="4192">
+			<graphic url="16091356_0001_119402527.jpg" width="2687px" height="4192px"/>
+		</surface>
+	</facsimile>
+	<facsimile xml:id="facs_2">
+		<surface ulx="0" uly="0" lrx="2679" lry="4199">
+			<graphic url="16091356_0002_119402567.jpg" width="2679px" height="4199px"/>
+		</surface>
+	</facsimile>
+	<text>
+		<body>
+			<div>
+				<div type="page"><pb facs="#facs_1" n="1"/>
+				</div><div type="page"><pb facs="#facs_2" n="2"/>
+			</div></div>
+		</body>
+	</text>
 </TEI>
