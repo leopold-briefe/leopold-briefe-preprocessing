@@ -2,11 +2,7 @@
 
 Repo to generate basic XML/TEI for further annotating
 
-## transkribus-out
-
-This folder holds the XML/TEI data from the manually created Transkribus export
-
-### how to export
+## how to export
 
 * go to the [collection overview](https://app.transkribus.org/collection/2394287)
 * select those documents you want to export (see [screen-001-export.png](screenshots/screen-001-export.png))
@@ -18,12 +14,4 @@ This folder holds the XML/TEI data from the manually created Transkribus export
   * **Line Breaks**: `<lb/>`
 * click **Start export**
 * You'll get an email when the export is completed.
-* Download and unzip the export-zip. Copy the folders in the zip into `transkribus-out`
-
-## upconvert
-
-To combine metadata about the letters curated in a dedicated Baserow-Database and the data fetched from Transkribus run
-
-```bash
-uv run src/make_teis.py
-```
+* Copy and paste the link to the [download and process GH-Action](https://github.com/leopold-briefe/leopold-briefe-preprocessing/actions/workflows/download_and_process.yml) after clicking on the "Run workflow" button
