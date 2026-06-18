@@ -1,0 +1,27 @@
+name: Download and process Transkribus TEI-Dumps
+
+on:
+  workflow_dispatch:
+    inputs:
+      tr_dl_url:
+        description: URL for the Transkribus TEI dump
+        required: true
+        type: string
+
+jobs:
+  download:
+    name: download
+    runs-on: ubuntu-latest
+    env:
+      TR_DL_URL: ${{ inputs.tr_dl_url }}
+    steps:
+      - name: checkout the repo  
+        uses: actions/checkout@v6
+      - name: Install the latest version of uv
+        uses: astral-sh/setup-uv@v8.1.0
+      - name: dump the data
+        run: .src/download_and_process.sh
+      - name: Commit data
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: Transkribus data update
