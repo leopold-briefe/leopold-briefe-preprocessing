@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader>
+  <teiHeader>
     <fileDesc>
         <titleStmt>
             <title type="main">Leopold I. an Sternberg, Adolf Wratislaw, 20. Juni 1672</title>
@@ -56,34 +56,9 @@
         <change xml:id="transkription-status">nicht vorhanden</change>
     </revisionDesc>
 </teiHeader>
-<facsimile xml:id="facs_1">
-		<surface ulx="0" uly="0" lrx="2673" lry="4079">
-			<graphic url="16091056_0001_119401131.jpg" width="2673px" height="4079px"/>
-		</surface>
-	</facsimile>
-	<facsimile xml:id="facs_2">
-		<surface ulx="0" uly="0" lrx="2703" lry="4129">
-			<graphic url="16091056_0002_119401132.jpg" width="2703px" height="4129px"/>
-		</surface>
-	</facsimile>
-	<facsimile xml:id="facs_3">
-		<surface ulx="0" uly="0" lrx="2707" lry="4113">
-			<graphic url="16091056_0003_119401173.jpg" width="2707px" height="4113px"/>
-		</surface>
-	</facsimile>
-	<facsimile xml:id="facs_4">
-		<surface ulx="0" uly="0" lrx="2702" lry="4097">
-			<graphic url="16091056_0004_119401174.jpg" width="2702px" height="4097px"/>
-		</surface>
-	</facsimile>
-	<text>
-		<body>
-			<div>
-				<div type="page"><pb facs="#facs_1" n="1"/>
-				</div><div type="page"><pb facs="#facs_2" n="2"/>
-				</div><div type="page"><pb facs="#facs_3" n="3"/>
-				</div><div type="page"><pb facs="#facs_4" n="4"/>
-			</div></div>
-		</body>
-	</text>
+<text>
+      <body>
+         <p>Noch keine Transkription erstellt.</p>
+      </body>
+  </text>
 </TEI>
