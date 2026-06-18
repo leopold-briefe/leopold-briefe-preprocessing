@@ -27,8 +27,3 @@ To combine metadata about the letters curated in a dedicated Baserow-Database an
 ```bash
 uv run src/make_teis.py
 ```
-
-## issues
-
-* page2tei export ignores all tags
-* Standard TEI Export exports abbr/choice but ignores e.g. "split_word" and "corrected"

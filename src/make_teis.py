@@ -15,6 +15,7 @@ template = env.get_template("tei-header.xml")
 LETTERS_SOURCE = "letters.json"
 OUT_DIR = os.path.join("data", "editions")
 FALLBACK_TEI = os.path.join("src", "templates", "fallback.xml")
+TEI_NS = "http://www.tei-c.org/ns/1.0"
 
 os.makedirs(OUT_DIR, exist_ok=True)
 
@@ -48,6 +49,19 @@ for key, value in tqdm(metadata.items()):
         doc = TeiReader(FALLBACK_TEI)
     for bad in doc.any_xpath(".//tei:teiHeader"):
         bad.getparent().remove(bad)
+
+    new_tag = f"{{{TEI_NS}}}corr"
+    for old_tag in doc.any_xpath(".//tei:corrected"):
+        old_tag.tag = new_tag
+
+    new_tag = f"{{{TEI_NS}}}w"
+    for i, old_tag in enumerate(doc.any_xpath(".//tei:split_word"), start=1):
+        old_tag.tag = new_tag
+        if i % 2 == 0:
+            old_tag.attrib["type"] = "end"
+        else:
+            old_tag.attrib["type"] = "start"
+
     doc.tree.getroot().insert(0, header_node)
     wrap_pb_sections_in_divs(doc)
     doc.tree_to_file(save_path)

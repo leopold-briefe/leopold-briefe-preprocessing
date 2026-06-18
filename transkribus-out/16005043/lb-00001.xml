@@ -34,8 +34,8 @@
 		</surface>
 	</facsimile>
 	<facsimile xml:id='facs_2'>
-		<surface ulx='0' uly='0' lrx='2472' lry='3671'>
-			<graphic url='16005043_0002_119127987.jpg' width='2472px' height='3671px'/>
+		<surface ulx='0' uly='0' lrx='2400' lry='3631'>
+			<graphic url='16005043_0002_122576756.jpg' width='2400px' height='3631px'/>
 		</surface>
 	</facsimile>
 	<facsimile xml:id='facs_3'>
@@ -57,26 +57,26 @@
 			<div>
 				<pb facs='#facs_1' n='1'/>
 				<p facs='#facs_1_tr_1'>
-					<lb facs='#facs_1_tr_1_tl_3' n='N001'/>Lieber vratl. aus beylag Ersehet Ihr die vrsachen, <split_word>Wa</split_word>
-					<lb facs='#facs_1_tr_1_tl_4' n='N002'/><split_word>rumb</split_word> der <choice><expan>graf</expan><abbr>G.</abbr></choice> Steffan von wurmb Sich von der <split_word>lantag</split_word>
-					<lb facs='#facs_1_tr_1_tl_5' n='N003'/><split_word>Comission</split_word> <corrected>z</corrected>ue Endtschüetten vermaindt. Waillen Ich
-					<lb facs='#facs_1_tr_1_tl_6' n='N004'/>aber Selbe nitt vor genuegsamb Erhöblich finde,
-					<lb facs='#facs_1_l' n='N005'/>Also wollet Ihr Ihne alßo straxs Mundtlich andeütten,
-					<lb facs='#facs_1_tr_1_tl_9' n='N006'/>das Er Sich alsobaldt Nach brun verfuegen vnd Seiner
-					<lb facs='#facs_1_tr_1_tl_10' n='N007'/>comission In termino den anfang geben Solle.
-					<lb facs='#facs_1_tr_1_tl_11' n='N008'/>In Sain processen vnd causis wirdt müessen vorgesehen
+					<lb facs='#facs_1_tr_1_tl_3' n='N001'/>Lieber Vratl. Aus beylag ersehet ihr die vrsachen, <split_word>wa</split_word>
+					<lb facs='#facs_1_tr_1_tl_4' n='N002'/><split_word>rvmb</split_word> der <choice><expan>graf</expan><abbr>g.</abbr></choice> Steffan von Wurmb sich von der <split_word>lantag</split_word>
+					<lb facs='#facs_1_tr_1_tl_5' n='N003'/><split_word>comission</split_word> <corrected>z</corrected>ue endtschüetten vermaindt. Waillen ich
+					<lb facs='#facs_1_tr_1_tl_6' n='N004'/>aber selbe nitt vor genuegsamb erhöblich finde,
+					<lb facs='#facs_1_l' n='N005'/>also wollet ihr ihne alßo straxs mundtlich andeütten,
+					<lb facs='#facs_1_tr_1_tl_9' n='N006'/>das er sich alsobaldt nach Brun verfuegen vnd seiner
+					<lb facs='#facs_1_tr_1_tl_10' n='N007'/>comission in termino den anfang geben solle.
+					<lb facs='#facs_1_tr_1_tl_11' n='N008'/>In sain processen vnd causis wirdt müessen vorgesehen
 					<lb facs='#facs_1_tr_1_tl_12' n='N009'/>werden, ne reipublicae causae absens dannum patiat<choice><expan></expan><abbr>ur</abbr></choice>.
-					<lb facs='#facs_1_tr_1_tl_13' n='N010'/>Vnd verbleibe Euch Mitt beharlichen <choice><expan>kayserlichen</expan><abbr>Kay.</abbr></choice> hulden
-					<lb facs='#facs_1_l_3' n='N011'/>vnd genaden Wolgwogen
+					<lb facs='#facs_1_tr_1_tl_13' n='N010'/>Vnd verbleibe euch mitt beharlichen <choice><expan>kayserlichen</expan><abbr>kay.</abbr></choice> hulden
+					<lb facs='#facs_1_l_3' n='N011'/>vnd genaden wolgwogen
 					<lb facs='#facs_1_l_1' n='N012'/>Leopoldt
-					<lb facs='#facs_1_l_2' n='N013'/>den 28. Jan. 1668
+					<lb facs='#facs_1_l_2' n='N013'/>Den 28. <choice><expan>Januarii</expan><abbr>Jan.</abbr></choice> 1668
 				</p>
 				<pb facs='#facs_2' n='2'/>
 				<pb facs='#facs_3' n='3'/>
 				<pb facs='#facs_4' n='4'/>
 				<p facs='#facs_4_tr_1'>
-					<lb facs='#facs_4_tr_1_tl_1' n='N001'/>An Graven Vratel
-					<lb facs='#facs_4_tr_1_tl_2' n='N002'/>Von Stherenberg
+					<lb facs='#facs_4_tr_1_tl_1' n='N001'/>An graven Vratel
+					<lb facs='#facs_4_tr_1_tl_2' n='N002'/>von Stherenberg
 				</p>
 			</div>
 		</body>
