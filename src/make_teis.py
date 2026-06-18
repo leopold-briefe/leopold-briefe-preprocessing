@@ -20,7 +20,7 @@ TEI_NS = "http://www.tei-c.org/ns/1.0"
 os.makedirs(OUT_DIR, exist_ok=True)
 
 
-files = sorted(glob.glob("transkribus-out/*/*lb-*.xml"))
+files = sorted(glob.glob("tmp/*/*lb-*.xml"))
 try:
     with open(LETTERS_SOURCE, "r", encoding="utf-8") as fp:
         metadata = json.load(fp)

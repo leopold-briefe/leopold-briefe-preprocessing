@@ -100,8 +100,8 @@
 			<div>
 				<div type="page"><pb facs="#facs_1" n="1"/>
 				<p facs="#facs_1_tr_1">
-					<lb facs="#facs_1_tr_1_tl_3" n="N001"/>Lieber Vratl. Aus beylag ersehet ihr die vrsachen, <w type="new">wa</w>
-					<lb facs="#facs_1_tr_1_tl_4" n="N002"/><w type="end">rvmb</w> der <choice><expan>graf</expan><abbr>g.</abbr></choice> Steffan von Wurmb sich von der <w type="new">lantag</w>
+					<lb facs="#facs_1_tr_1_tl_3" n="N001"/>Lieber Vratl. Aus beylag ersehet ihr die vrsachen, <w type="start">wa</w>
+					<lb facs="#facs_1_tr_1_tl_4" n="N002"/><w type="end">rvmb</w> der <choice><expan>graf</expan><abbr>g.</abbr></choice> Steffan von Wurmb sich von der <w type="start">lantag</w>
 					<lb facs="#facs_1_tr_1_tl_5" n="N003"/><w type="end">comission</w> <corr>z</corr>ue endtschüetten vermaindt. Waillen ich
 					<lb facs="#facs_1_tr_1_tl_6" n="N004"/>aber selbe nitt vor genuegsamb erhöblich finde,
 					<lb facs="#facs_1_l" n="N005"/>also wollet ihr ihne alßo straxs mundtlich andeütten,
