@@ -4,7 +4,7 @@
         <titleStmt>
             <title type="main">{{ title }}</title>
             <title type="sub">Korrespondenz von Kaiser Leopold I</title>{% for x in sender %}
-            <author key="#lp-lb-person-{{x.id}}">{{ x.value }}</author>{% endfor %}
+            <author key="#lb-person-{{x.id}}">{{ x.value }}</author>{% endfor %}
             <editor key="https://d-nb.info/gnd/132150654">
                 <forename>Petr</forename>
                 <surname>Maťa</surname>
@@ -46,7 +46,8 @@
                 <date notBefore-iso="{{ not_before }}" notAfter-iso="{{ not_after }}">{{ written_date }}</date>
             </correspAction>
             <correspAction type="received">{% for x in receiver %}
-                <persName ref="#lp-lb-person-{{x.id}}">{{ x.value }}</persName>{% endfor %}
+                <persName ref="#lb-person-{{x.id}}">{{ x.value }}</persName>{% endfor %}{% for x in place_of_writing %}
+                <placeName ref="#lb-place-{{x.id}}">{{ x.value }}</placeName>{% endfor %}
             </correspAction>
         </correspDesc>
     </profileDesc>

@@ -5,7 +5,7 @@
         <titleStmt>
             <title type="main">Leopold I. an Sternberg, Adolf Wratislaw, 20. Juni 1672</title>
             <title type="sub">Korrespondenz von Kaiser Leopold I</title>
-            <author key="#lp-lb-person-1">Leopold I.</author>
+            <author key="#lb-person-1">Leopold I.</author>
             <editor key="https://d-nb.info/gnd/132150654">
                 <forename>Petr</forename>
                 <surname>Maťa</surname>
@@ -47,7 +47,8 @@
                 <date notBefore-iso="1672-06-20" notAfter-iso="1672-06-20">20. Juni 1672</date>
             </correspAction>
             <correspAction type="received">
-                <persName ref="#lp-lb-person-38">Sternberg, Adolf Wratislaw</persName>
+                <persName ref="#lb-person-38">Sternberg, Adolf Wratislaw</persName>
+                <placeName ref="#lb-place-1">Wien, Stadt</placeName>
             </correspAction>
         </correspDesc>
     </profileDesc>
