@@ -27,13 +27,20 @@
                             <idno>{{ signatur }}</idno>
                         </msIdentifier>
                         <history>   
-                            <origin>
+                            <origin>{% for x in kind %}
+                                <term>{{ x.value }}</term>{% endfor %}
                                 <origDate when-iso="{{ not_before }}" />
                             </origin>
                         </history>
                     </msDesc>
                 </witness>
-            </listWit>
+            </listWit>{% if related_letters or copy_of or concept_of %}
+            <listRelation>{% for x in related_letters %}
+                <relation active="{{ x.id }}.xml" {% for y in x.kind %}
+                    n="{{ y.value }}" {% endfor %}
+                    passive="{{ lb_id }}.xml"/>{% endfor %}{% for x in copy_of %}                
+                <relation active="{{ lb_id }}.xml" {% for y in kind %} n="{{ y.value }}" {% endfor %} passive="{{ x.value }}.xml"/>{% endfor %}
+            </listRelation>{% endif %}
         </sourceDesc>
     </fileDesc>
     <profileDesc>

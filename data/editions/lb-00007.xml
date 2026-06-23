@@ -29,12 +29,16 @@
                         </msIdentifier>
                         <history>   
                             <origin>
+                                <term>zeitgenössische Abschrift</term>
                                 <origDate when-iso="1677-04-09"/>
                             </origin>
                         </history>
                     </msDesc>
                 </witness>
             </listWit>
+            <listRelation>                
+                <relation active="lb-00007.xml" n="zeitgenössische Abschrift" passive="lb-00006.xml"/>
+            </listRelation>
         </sourceDesc>
     </fileDesc>
     <profileDesc>
