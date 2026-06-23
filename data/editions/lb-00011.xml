@@ -29,12 +29,16 @@
                         </msIdentifier>
                         <history>   
                             <origin>
+                                <term>spätere Abschrift</term>
                                 <origDate when-iso="1678-08-14"/>
                             </origin>
                         </history>
                     </msDesc>
                 </witness>
             </listWit>
+            <listRelation>                
+                <relation active="lb-00011.xml" n="spätere Abschrift" passive="lb-00009.xml"/>
+            </listRelation>
         </sourceDesc>
     </fileDesc>
     <profileDesc>
